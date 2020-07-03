@@ -1,7 +1,87 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
 
 body{
-    color: #ffae91;
+    background-color: #ffae91;
     font-family:'Open Sans', sans-serif;
 }
 
+header{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;   
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+/* Nav */
+
+/* Footer */
+
+footer{
+    text-align: center;
+}
+
+/* Index */
+
+.title {
+    text-align: center;
+    margin: 5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* code from love running project modified */
+
+#hero-image{
+    height: 100%;
+    max-width: 100%;
+    background: url(../images/hero-image.jpg) no-repeat center center;
+    background-size: cover;
+    
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+#hero-outer{
+    height: 800px;
+    width: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+#cover-text, #cover-text h2 {
+    color: #fff;
+}
+
+#cover-text {
+    font-size: 130%;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+    margin: 5px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+/* Footer */
+
+.social-links{
+    text-align: center;
+}
+
+.social-links li {
+    display:inline;
+}
+
+.social-links i {
+    font-size: 160%;
+    margin: 0;
+    padding: 3%;
+    color: black;
+}
+
+/* /code from love running project modified */
