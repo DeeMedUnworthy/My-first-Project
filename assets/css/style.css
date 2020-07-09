@@ -89,3 +89,13 @@ title {
 .menu-text h1{
     font-size: 25px;
 }
+
+@media (min-width: 768px) {
+    .contain-image {
+    position: relative;
+    overflow: hidden;
+    height: 500px;
+    width: 100%;
+    margin: 40px;
+    }
+}
