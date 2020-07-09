@@ -73,3 +73,19 @@ title {
 }
 
 /* /code from love running project modified */
+
+/* Menu-page */
+
+.menu-image {
+    max-height: 500px;
+}
+
+.menu-text {
+    text-align: center;
+    color: #fff;
+    margin: 20px;
+}
+
+.menu-text h1{
+    font-size: 25px;
+}
