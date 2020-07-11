@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
 
-body{
+body {
     background-color: #ffae91;
     font-family:'Open Sans', sans-serif;
 }
 
-header{
+header {
     font-family: 'Montserrat', sans-serif;
     color: #fff;   
 }
 
-.uppercase{
+.uppercase {
     text-transform: uppercase;
 }
 
@@ -18,8 +18,17 @@ header{
 
 /* Footer */
 
-footer{
+footer {
     text-align: center;
+    margin: 10px;
+}
+
+.opening-times {
+    list-style: none;
+}
+
+.btn-success {
+    padding: .1rem .25rem;
 }
 
 /* Index */
@@ -66,7 +75,7 @@ title {
 }
 
 .social-links i {
-    font-size: 160%;
+    font-size: 200%;
     margin: 0;
     padding: 3%;
     color: black;
@@ -92,10 +101,8 @@ title {
 
 @media (min-width: 768px) {
     .contain-image {
-    position: relative;
-    overflow: hidden;
     height: 500px;
-    width: 100%;
+    width: 500px;
     margin: 40px;
     }
 }
