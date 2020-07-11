@@ -16,21 +16,6 @@ header {
 
 /* Nav */
 
-/* Footer */
-
-footer {
-    text-align: center;
-    margin: 10px;
-}
-
-.opening-times {
-    list-style: none;
-}
-
-.btn-success {
-    padding: .1rem .25rem;
-}
-
 /* Index */
 
 title {
@@ -81,6 +66,22 @@ title {
     color: black;
 }
 
+footer {
+    text-align: center;
+    margin: 10px;
+    background-color:rgba(0,0,0,0.4);
+    color: #fff;
+}
+
+.opening-times {
+    list-style: none;
+}
+
+.btn-success {
+    padding: .1rem .25rem;
+}
+
+
 /* /code from love running project modified */
 
 /* Menu-page */
@@ -105,4 +106,12 @@ title {
     width: 500px;
     margin: 40px;
     }
+}
+
+/* Contact-page */
+
+#googlemaps {
+    width: 85%;
+    height: 85%;
+    margin: 30px;
 }
