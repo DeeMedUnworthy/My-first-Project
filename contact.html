@@ -32,60 +32,58 @@
         </header>
 
         <!--Form and Map-->
-
         <section class="container-fluid">
             <div class="row">
-                <div class="col-lg-2 col-md-1 col-sm-0 background-color"></div>
-                <div class="col-lg-8 col-md-10 col-sm-12 menu-text">
+                <div class="col-xl-2 col-md-1 col-sm-0"></div>
+                <div class="col-xl-8 col-md-10 col-sm-12 menu-text background-color">
                     <h1 class="uppercase title">contact us</h1>
-                </div>
-                <div class="col-lg-2 col-md-1 col-sm-0 background-color"></div>
-
-                <div class="col-lg-2 col-md-1 col-sm-0 background-color"></div>
-                <div class="col-lg-4 col-md-5 col-sm-12">
-                    <div>
-                        <p>Please contact us on the form below or call using the number: 02074 645645</p>
+                    <div class="row">
+                        <div class="col-xl-6 col-md-12">
+                            <div>
+                                <p>Please contact us on the form below or call using the number: 02074 645645</p>
+                            </div>
+                            <form>
+                                <div class="form-group">
+                                    <label for="namef">Name:</label>
+                                    <input type="text" class="form-control" id="namef" placeholder="Name" required />
+                                </div>
+                                <div class="form-group">
+                                    <label for="emailf">Email address:</label>
+                                    <input type="email" class="form-control" id="emailf" placeholder="name@example.com" required />
+                                </div>
+                                <div class="form-group">
+                                    <label for="inqueryf">Inquery:</label>
+                                    <select class="form-control" id="inqueryf">
+                                        <option>Book a table online</option>
+                                        <option>Request a full menu</option>
+                                        <option>Give us feedback</option>
+                                        <option>Other</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="textareaf">Please provide us infomation below:</label>
+                                    <textarea class="form-control" id="textareaf" rows="3" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-success mb-2" value="Submit"></button>
+                            </form>
+                        </div>
+                        <div class="col-xl-6 col-md-12">
+                            <h5 class="find-us">Find us</h5>
+                            <p class="address">Montfichet Rd, London E20 1EJ</p>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5901.6194211149505!2d-0.004648440254944158!3d51.54393364461765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761d646f76f141%3A0xea8a03aa08f5f286!2sWestfield%20Stratford%20City!5e0!3m2!1sen!2suk!4v1594577992209!5m2!1sen!2suk"
+                                width="300"
+                                height="300"
+                                frameborder="0"
+                                style="border: 0;"
+                                allowfullscreen=""
+                                aria-hidden="false"
+                                tabindex="0"
+                            ></iframe>
+                        </div>
                     </div>
-                    <form>
-                        <div class="form-group">
-                            <label for="namef">Name</label>
-                            <input type="text" class="form-control" id="namef" placeholder="Name" required />
-                        </div>
-                        <div class="form-group">
-                            <label for="emailf">Email address</label>
-                            <input type="email" class="form-control" id="emailf" placeholder="name@example.com" required />
-                        </div>
-                        <div class="form-group">
-                            <label for="inqueryf">Inquery</label>
-                            <select class="form-control" id="inqueryf">
-                                <option>Book a table online</option>
-                                <option>Request a full menu</option>
-                                <option>Give us feedback</option>
-                                <option>Other</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="textareaf">Please provide us infomation below</label>
-                            <textarea class="form-control" id="textareaf" rows="3" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-success mb-2" value="Submit"></button>
-                    </form>
                 </div>
-                <div class="col-lg-4 col-md-5 col-sm-12">
-                    <h5 class="find-us">Find us</h5>
-                    <p class="address">Montfichet Rd, London E20 1EJ</p>
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5901.6194211149505!2d-0.004648440254944158!3d51.54393364461765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761d646f76f141%3A0xea8a03aa08f5f286!2sWestfield%20Stratford%20City!5e0!3m2!1sen!2suk!4v1594577992209!5m2!1sen!2suk"
-                        width="300"
-                        height="300"
-                        frameborder="0"
-                        style="border: 0;"
-                        allowfullscreen=""
-                        aria-hidden="false"
-                        tabindex="0"
-                    ></iframe>
-                </div>
-                <div class="col-lg-2 col-md-1 col-sm-0 background-color"></div>
+                <div class="col-xl-2 col-md-1 col-sm-0"></div>
             </div>
         </section>
 
@@ -122,8 +120,8 @@
                 <small><i class="fas fa-copyright"></i> Copyright SPICE 2020 all rights are reserved</small>
             </p>
         </footer>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     </body>
 </html>
