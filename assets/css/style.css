@@ -13,7 +13,7 @@ header {
 }
 
 .background-color {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: #ffae91;
 }
 
 
@@ -29,7 +29,7 @@ header {
 /* code from love running project modified */
 
 #hero-image {
-    height: 800px;
+    height: 100vh;
     max-width: 100%;
     background: url(../images/hero-image.jpg) no-repeat center center;
     background-size: cover;
@@ -54,6 +54,10 @@ header {
     margin-bottom: 75px;
 }
 
+#carousel-homepage img{
+    max-height:800px;
+}
+
 /* Footer */
 
 .social-links {
@@ -66,7 +70,7 @@ header {
 
 .social-links i {
     font-size: 200%;
-    margin: 10px;
+    margin: 20px;
     padding: 1px;
     color: #fff;
 }
@@ -80,7 +84,7 @@ footer {
     margin: 0;
     padding-top: 30px;
     padding-bottom: 5px;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: #46445f;
     color: #fff;
 }
 
@@ -107,7 +111,7 @@ footer {
 }
 
 .menu-text h1 {
-    font-size: 25px;
+    font-size: 40px;
 }
 
 @media (min-width: 768px) {
